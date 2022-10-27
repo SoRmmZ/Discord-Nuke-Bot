@@ -10,13 +10,13 @@ import asyncio
 
 
 #Bot Token 
-token = input(f"Enter Your Bot Token: ")
+token = input(f"MTAzMjI3MjI2NzExMzE0MDI1NA.GokwyZ.c-KRAFW1Mi4tuGrUav1psXVPuiZoq9TisKd6uU: ")
 #Enter Prefix For Your Bot
-prefix = input(f"Enter Prefix For Your Bot: ")
+prefix = input(f"$Nuke: ")
 #enter Your User id like - Example#6969
-owner = input(f"Enter Your Username With Tag: ")
+owner = input(f"SoRmmZ#1313: ")
 
-SPAM_CHANNEL =  "Nuke Test"
+SPAM_CHANNEL =  "general"
 SPAM_MESSAGE = "@everyone Nuked ","@everyone Cry About it","@everyone  Beamed @everyone ","@everyone Nuked "
 
 client = commands.Bot(command_prefix=prefix)
